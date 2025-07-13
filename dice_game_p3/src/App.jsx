@@ -1,12 +1,13 @@
-import styled from "styled-components" 
+import StartGame from "./components/StartGame";
 
-const Button = styled.button`
- `;
+
 
 function App() {
   return ( 
     <>
-      <Button> this is styled component button </Button>
+    < StartGame />
+
+       
     </>
   )
 }
